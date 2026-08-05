@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylist.css">
+    <title>Document</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="nav-logo"><a href="#"><img src="./Download Mouse With Hand Illustration Logo computer personal for free.jpg" alt="" width="50px"></a></div>
+
+        <!-- Hamburger Menu for Mobile -->
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <!-- Navigation Links & Search -->
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">Cart (0)</a></li>
+                <li><a href="#">Checkout</a></li>
+            </ul>     
+
+            </div>
+
+            <!-- Search Bar -->
+            <form class="search-bar">
+                <input type="text" placeholder="Search products..." aria-label="Search">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+
+            <!-- Dark Mode Toggle -->
+            <button class="theme-toggle" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </nav>
+
+    
+    <div class="slider">
+
+        <div class="product-card">
+            <img src="./14 Pro Max.jpg" alt="Iphone 14">
+            <h3>Iphone 14</h3>
+            <p>price &#8358;190,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./IPhone  13 pro Max (Recondicionado)   512gb.jpg" alt="">
+            <h3>Iphone 13</h3>
+            <p>price &#8358;150,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./ADATA HD710 Pro - 1 TB External Hard Drive - Shockproof, Waterproof & Dustproof - Durable Storage - For Gamers, Students & Professionals - Mac, PC &.jpg" alt="">
+            <h3>External hard drive</h3>
+            <p>price &#8358;25,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./Amazon_com_ PlayStation 4 Console_ Video Games.jpg" alt="">
+            <h3>Ps4</h3>
+            <p>price &#8358;200,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./Alienware 16X Aurora (RKMW3), Gaming-Notebook - Standard.jpg" alt="">
+            <h3>Alienware Laptop</h3>
+            <p>price &#8358;1,250,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./Xbox One S 500GB Console.jpg" alt="">
+            <h3>Xbox 1</h3>
+            <p>price &#8358;700,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./VR glasses with headphones Virtual Reality Headset suitable for 3D VR FIYAPOO.jpg" alt="">
+            <h3>VR Glasses</h3>
+            <p>price &#8358;100,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./Wireless Gaming Keyboard and Mouse,RGB Backlit Rechargeable Keyboard Mouse with 5000mAh Battery Metal Panel,Removable Hand Rest Mechanical Feel Keyboard and 7 Color for PC Gamers (RGB Backlit).jpg" alt="">
+            <h3>Wireless Gaming Keyboard</h3>
+            <p>price &#8358;15,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="./PS5 Reportedly Getting Hardware Redesign Next Year___.jpg" alt="">
+            <h3>PS5</h3>
+            <p>price &#8358;1,000,000</p>
+        </div>
+
+    </div>
+
+
+  <main class="shop-container">
+    <header class="shop-header">
+      <h1>Shop by Category</h1>
+      <p>Discover our curated collection of premium goods</p>
+    </header>
+
+    <!-- Category Filter Tabs -->
+    <nav class="categories-nav" aria-label="Product categories">
+      <button class="category-btn active" data-category="all">All Products</button>
+      <button class="category-btn" data-category="electronics">Electronics</button>
+      <button class="category-btn" data-category="accessories">Accessories</button>
+    </nav>
+
+    <!-- Products Grid -->
+    <section class="products-grid" id="products-grid">
+      <!-- Cards generated via JavaScript or rendered inline -->
+      <article class="product-card" data-category="electronics">
+        <div class="product-image">
+          <img src="./14 Pro Max.jpg" alt="Smart phone">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Electronics</span>
+          <h2 class="product-title">Smart phone</h2>
+          <p class="product-price">&#8358;190,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="electronics">
+        <div class="product-image">
+          <img src="./Amazon_com_ PlayStation 4 Console_ Video Games.jpg" alt="Console">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Electronics</span>
+          <h2 class="product-title">Console</h2>
+          <p class="product-price">&#8358;200,00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="accessories">
+        <div class="product-image">
+          <img src="./AirPods Pro 2 Wireless Earbuds _ Premium Sound, ANC & Long Battery Life 🎧 _ AH Mobile Accessories.jpg" alt="Accessories">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Ear pods</span>
+          <h2 class="product-title">Accessories</h2>
+          <p class="product-price">&#8358;5000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="accessories">
+        <div class="product-image">
+          <img src="./128gb Micron 4x 32gb 3200mhz Ecc-r Ram F_ Supermicro Superworkstation Sys-730a-i.jpg" alt="Accessories">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Accessories</span>
+          <h2 class="product-title">Computer Ram</h2>
+          <p class="product-price">&#8358;21,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      
+      <article class="product-card" data-category="accessories">
+        <div class="product-image">
+          <img src="./ATTACK SHARK R82 HE Rapid Trigger Keyboard Magnetic Switch with 0 (1).jpg" alt="Accessories">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Accessories</span>
+          <h2 class="product-title">Gaming Keyboard</h2>
+          <p class="product-price">&#8358;31,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      
+      <article class="product-card" data-category="electronics">
+        <div class="product-image">
+          <img src="./Alienware Gaming Laptops _ Dell USA.jpg" alt="Electronics">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Electronics</span>
+          <h2 class="product-title">Gaming Laptop</h2>
+          <p class="product-price">&#8358;1,000,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      
+      <article class="product-card" data-category="electronics">
+        <div class="product-image">
+          <img src="./HP OMEN Gaming Laptop, 17,3_ QHD 165 Hz IPS-Display.jpg" alt="Electronics">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Electronics</span>
+          <h2 class="product-title">Gaming Laptop</h2>
+          <p class="product-price">&#8358;900,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      
+      <article class="product-card" data-category="electronics">
+        <div class="product-image">
+          <img src="./VR glasses with headphones Virtual Reality Headset suitable for 3D VR FIYAPOO.jpg" alt="Electronics">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Electronics</span>
+          <h2 class="product-title">VR Glasses</h2>
+          <p class="product-price">&#8358;300,000</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+   
+</body>
+</html>
